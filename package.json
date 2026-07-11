@@ -1,7 +1,7 @@
 {
-  "name": "ai-multimodel-chatbot",
+  "name": "private-ai-chatbot",
   "version": "1.0.0",
-  "description": "AI Chatbot with 10+ AI Models",
+  "description": "Private AI Chatbot - Only QR Scanner Can Access",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -12,8 +12,16 @@
     "axios": "^1.6.0",
     "qrcode-terminal": "^0.12.0",
     "dotenv": "^16.3.1",
-    "node-fetch": "^2.7.0",
-    "fs": "^0.0.1-security",
-    "path": "^0.12.7"
-  }
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "keywords": [
+    "private-ai-chatbot",
+    "whatsapp-bot",
+    "gpt-4",
+    "claude-3",
+    "gemini"
+  ]
 }
