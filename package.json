@@ -1,0 +1,19 @@
+{
+  "name": "ai-multimodel-chatbot",
+  "version": "1.0.0",
+  "description": "AI Chatbot with 10+ AI Models",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "axios": "^1.6.0",
+    "qrcode-terminal": "^0.12.0",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^2.7.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
